@@ -12,7 +12,7 @@ class prd:
         prdts=np.array([])
         for i in range(0,3):
             #没办法了,重复使用会报错
-            model = load_model("./restapi/model.h5")
+            model = load_model("./model.h5")
             pd=model.predict([[samehours]])
             samehours=np.delete(samehours,0,axis=0) 
             samehours=np.append(samehours,pd[0][0])
