@@ -14,9 +14,13 @@ numpy                         1.17.0
 
 pandas                            0.25.0
 
+future文件:
+在阿里云根目录
 
 RESTApi:
 
 0.0.0.0:8090?data=2,2,2,2,2,2,2......
 
+运行方式:
 运行 restapi中的 apps.py即可
+
