@@ -1,12 +1,17 @@
 所需环境:
 
 python3.6.9
+
 所需扩展包:
 
-tensorflow                        1.14.0   
+tensorflow                    1.14.0   
+
 Keras                             2.2.5   
+
 flask                               1.1.1
+
 numpy                         1.17.0         
+
 pandas                            0.25.0
 
 
