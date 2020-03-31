@@ -13,10 +13,13 @@
 　numpy                         1.17.0         
 
 　pandas                            0.25.0
+ 一键部署：
+     aliyun 根目录/  一键部署.sh
 
 future文件:
 
-　在阿里云根目录
+　aliyun 根目录/future.csv
+ 
 
 RESTApi:
 
