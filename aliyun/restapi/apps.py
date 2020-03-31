@@ -9,7 +9,8 @@ app = Flask(__name__,  )
 def  main():
     data= request.args.get("data")
     data= data.replace(" ", "")
-    data=np.array(data).astype("float32")
+    data= [ float(x) for x in data.split(",")]
+    data=np.array(data)
     dic={}
     dic['predict']=predict.prdt(data).tolist()
     return  json.dumps(dic)
