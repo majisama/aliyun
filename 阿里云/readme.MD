@@ -15,12 +15,12 @@
 　pandas                            0.25.0
 
  一键部署:
- 
-     aliyun 根目录/  一键部署.sh
+      
+      在终端运行一键部署.sh即可一键部署
 
-future文件:
+数据:
 
-　aliyun 根目录/future.csv
+　future.csv为未来三天的资源消耗
  
 
 RESTApi:
